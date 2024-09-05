@@ -5,10 +5,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E8F17E13-476D-48E3-A509-91F1AD3281B1}</ProjectGuid>
+    <ProjectGuid>{D75CFB62-FC3D-40AD-BCCF-800A464AB7E1}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>pjr_codeFirst_01</RootNamespace>
-    <AssemblyName>pjr_codeFirst_01</AssemblyName>
+    <RootNamespace>prj_codeFirst_02</RootNamespace>
+    <AssemblyName>prj_codeFirst_02</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -62,21 +62,20 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202409050128000_v0.cs" />
-    <Compile Include="Migrations\202409050128000_v0.designer.cs">
-      <DependentUpon>202409050128000_v0.cs</DependentUpon>
+    <Compile Include="KETQUA.cs" />
+    <Compile Include="KHOA.cs" />
+    <Compile Include="Migrations\202409050354083_v0.cs" />
+    <Compile Include="Migrations\202409050354083_v0.designer.cs">
+      <DependentUpon>202409050354083_v0.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="PHIM.cs" />
+    <Compile Include="MONHOC.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="QLPHIMDBContext.cs" />
-    <Compile Include="THELOAI.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202409050128000_v0.resx">
-      <DependentUpon>202409050128000_v0.cs</DependentUpon>
+    <Compile Include="QLSVDBContext.cs" />
+    <Compile Include="SINHVIEN.cs" />
+    <EmbeddedResource Include="Migrations\202409050354083_v0.resx">
+      <DependentUpon>202409050354083_v0.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
